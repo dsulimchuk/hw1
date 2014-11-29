@@ -11,7 +11,6 @@ var searchFormSearchButton = document.getElementById("searchFormSearchButton");
 var productList = document.getElementById("productsList");
 
 //INIT
-searchForm.style.display = "none";
 document.getElementById("navBarLink").addEventListener("click", function() {location.reload()} , false);
 document.getElementById("breadCrHome").addEventListener("click", function() {location.reload()} , false);
 
